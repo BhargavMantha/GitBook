@@ -1,5 +1,8 @@
 ---
 description: This page describes the Road map to understand and learn compiler design
+cover: >-
+  https://images.unsplash.com/photo-1523726491678-bf852e717f6a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw5fHxjb21waWxlciUyMGRlc2lnbnxlbnwwfHx8fDE2OTY1MjYzMzJ8MA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Compiler Design Road map
