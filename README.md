@@ -1,84 +1,92 @@
----
-description: This page describes the Road map to understand and learn compiler design
----
+# What and How to proceed
 
-# Compiler Design Road map
+#### Step 1: Foundations
 
-#### **Phase 1: Strengthening Foundations**
+**Mathematics**
 
-**1. Data Structures and Algorithms:**
+Understanding the basics of mathematics, especially discrete math, will help you with algorithmic thinking.
 
-* **Books:**
-  * **"Data Structures and Algorithms in JavaScript"** by Michael McMillan. This aligns with the student's proficiency in JavaScript.
-* **Video Lectures:**
-  * **Coursera's "Algorithms Specialization"** by Stanford University (the course uses Java, but the concepts can be translated to JavaScript).
-* **Hands-on Practical Exercises:**
-  * Sites like **LeetCode** and **HackerRank** offer algorithm challenges that can be solved using JavaScript.
+* Topics to Learn: Logic, Set Theory, Functions, Matrices, Probability, and Graph Theory
+* Resources: [Khan Academy’s Discrete Math Course](https://www.khanacademy.org/computing/computer-science), books like “Discrete Mathematics and its Applications” by Kenneth H. Rosen.
 
-**2. Basics of Computer Architecture and Operating Systems**
+**Programming Language**
 
-* **Books:**
-  * **"Computer Systems: A Programmer's Perspective"** by Randal E. Bryant, David R. O'Hallaron
-* **Video Lectures:**
-  * **"Introduction to Computer Systems"** on platforms like edX or Coursera.
+Choose a programming language you are comfortable with, as this will be the tool to implement what you learn.
 
-#### **Phase 2: Introduction to Compiler Design**
+* Suggested Languages: C++, Java, Python
+* Resources: Codecademy, FreeCodeCamp, edX, or any language-specific tutorial depending on your choice.
 
-**3. Basics of Compiler Design**
+#### Step 2: Basic Data Structures
 
-* **Books:**
-  * **"Compilers: Principles, Techniques, and Tools"** by Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffrey D. Ullman. This book, often referred to as the Dragon Book, is the gold standard for learning about compilers.
-* **Video Lectures:**
-  * **"Programming Languages and Compilers"** by UC Berkeley on platforms like edX.
+Learn and practice implementing basic data structures.
 
-**4. Design Patterns:** Given the student's interest in design patterns, it's beneficial to explore patterns used in compiler design.
+**Arrays and Strings**
 
-* **Books:**
-  * **"Design Patterns: Elements of Reusable Object-Oriented Software"** by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
-* **Hands-on Practical Exercises:**
-  * Try to implement some of the patterns using TypeScript or JavaScript.
+* Resources: [GeeksforGeeks Arrays Guide](https://www.geeksforgeeks.org/array-data-structure/)
 
-#### **Phase 3: Diving Deeper**
+**Linked Lists**
 
-**5. Building a Simple Compiler for JavaScript**
+* Resources: [Coursera Linked List Course](https://www.coursera.org/learn/data-structures)
 
-* **Books:**
-  * **"Building a Compiler in TypeScript"** by Sam Galizia. This book is a hands-on guide for building a compiler in TypeScript.
-* **Hands-on Practical Exercises:**
-  * Start by writing a compiler for a small subset of JavaScript or TypeScript, and expand from there.
-  * For a practical project, you could create a simple compiler that translates a subset of JavaScript into another domain-specific language or another popular language.
+**Stacks and Queues**
 
-**6. Optimization Techniques in Compiler Design**
+* Resources: [GeeksforGeeks Stacks and Queues Guide](https://www.geeksforgeeks.org/stack-data-structure/)
 
-* **Books:**
-  * Revisit specific chapters in the **Dragon Book** that focus on optimization.
-* **Video Lectures:**
-  * **"Advanced Compiler Design and Implementation"** lectures available on educational platforms.
+**Trees and Graphs**
 
-#### **Phase 4: Advanced Topics**
+* Resources: [UCSD Coursera Course on Basic Data Structures](https://www.coursera.org/learn/data-structures)
 
-**7. Intermediate Representations & Code Generation**
+#### Step 3: Sorting and Searching Algorithms
 
-* **Hands-on Practical Exercises:**
-  * Extend your JavaScript compiler to generate intermediate code.
-  * Further extend it to generate executable code for a simulated machine.
+Understand basic sorting and searching techniques.
 
-**8. Advanced Optimization Techniques**
+* Topics to Learn: Bubble Sort, Quick Sort, Merge Sort, Binary Search.
+* Resources: [Khan Academy’s Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
 
-* **Books:**
-  * **"Advanced Compiler Design and Implementation"** by Steven Muchnick.
-* **Hands-on Practical Exercises:**
-  * Implement optimization passes in your compiler project, such as constant folding, loop unrolling, or dead code elimination.
+#### Step 4: Intermediate Data Structures
 
-#### **Review & Continual Learning**
+**Hashing**
 
-**9. Engage in Communities and Projects**
+* Resources: [Introduction to Hashing](https://www.geeksforgeeks.org/hashing-data-structure/)
 
-* Engage in forums like **Stack Overflow** or platforms like **GitHub** to view open-source compiler projects.
-* Contribute or start a side project. This provides a hands-on approach and a deeper understanding of the concepts.
+**Heaps**
 
-**10. Continue Reading and Staying Updated**
+* Resources: [Heap Data Structure Guide](https://www.geeksforgeeks.org/heap-data-structure/)
 
-* The world of compiler design evolves. Periodically check for new editions of the recommended books, new papers, and articles on the subject.
+#### Step 5: Advanced Algorithms
 
-Remember, the pace of learning will vary from person to person. Given that the student took a year to master JavaScript, it's reasonable to assume that each phase might take several months. This roadmap can span over two or more years, depending on the depth of exploration and understanding the student wishes to achieve.
+**Graph Algorithms**
+
+* Resources: [Graph Algorithms Course by UCSD on Coursera](https://www.coursera.org/learn/algorithms-on-graphs)
+
+**Dynamic Programming**
+
+* Resources: [Dynamic Programming Guide on GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
+
+**Greedy Algorithms**
+
+* Resources: [Introduction to Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
+
+#### Step 6: Problem Solving and Practice
+
+* Platforms: LeetCode, HackerRank, CodeSignal.
+* Resources: Books like “Cracking the Coding Interview” by Gayle Laakmann McDowell.
+
+#### Step 7: Special Topics
+
+* Machine Learning Algorithms: If you have an interest in AI/ML.
+* Network Flow Algorithms: If you are interested in network design and optimization.
+
+#### Step 8: Projects
+
+Building projects using the data structures and algorithms you’ve learned.
+
+#### Step 9: Stay Updated and Engage with Community
+
+* Read research papers, blog posts, engage with communities like Stack Overflow, Reddit.
+
+#### Conclusion
+
+Remember, mastering data structures and algorithms is a gradual process and requires consistent practice. Stick to the plan, and don’t hesitate to seek help from communities or mentors if you’re stuck. You can also consider joining a structured course from platforms like Coursera, Udacity, or edX to have a guided learning experience. Happy learning!
+
+\
