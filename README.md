@@ -1,4 +1,4 @@
-# What and How to proceed
+# What, Where and How to proceed
 
 #### Step 1: Foundations
 
